@@ -1,0 +1,11 @@
+C:\Users\Kynton\Desktop\Exp2\Model\bin\Debug\Model.dll
+C:\Users\Kynton\Desktop\Exp2\Model\bin\Debug\Model.pdb
+C:\Users\Kynton\Desktop\Exp2\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Kynton\Desktop\Exp2\Model\obj\Debug\Model.dll
+C:\Users\Kynton\Desktop\Exp2\Model\obj\Debug\Model.pdb
+D:\大学\作业资料\大三第一学期\数据库工程\大作业\4\Model\bin\Debug\Model.dll
+D:\大学\作业资料\大三第一学期\数据库工程\大作业\4\Model\bin\Debug\Model.pdb
+D:\大学\作业资料\大三第一学期\数据库工程\大作业\4\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\大学\作业资料\大三第一学期\数据库工程\大作业\4\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\大学\作业资料\大三第一学期\数据库工程\大作业\4\Model\obj\Debug\Model.dll
+D:\大学\作业资料\大三第一学期\数据库工程\大作业\4\Model\obj\Debug\Model.pdb

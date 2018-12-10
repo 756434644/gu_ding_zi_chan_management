@@ -1,0 +1,8 @@
+C:\Users\Kynton\Desktop\Exp2\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+C:\Users\Kynton\Desktop\Exp2\IDAL\obj\Debug\IDAL.Properties.Resources.resources
+C:\Users\Kynton\Desktop\Exp2\IDAL\obj\Debug\IDAL.csproj.GenerateResource.Cache
+C:\Users\Kynton\Desktop\Exp2\IDAL\bin\Debug\IDAL.exe.config
+C:\Users\Kynton\Desktop\Exp2\IDAL\bin\Debug\IDAL.exe
+C:\Users\Kynton\Desktop\Exp2\IDAL\bin\Debug\IDAL.pdb
+C:\Users\Kynton\Desktop\Exp2\IDAL\obj\Debug\IDAL.exe
+C:\Users\Kynton\Desktop\Exp2\IDAL\obj\Debug\IDAL.pdb

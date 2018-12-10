@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55C95DC9-CBAD-4100-915D-7E1B2169102E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Exp2</RootNamespace>
+    <AssemblyName>Exp2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_department.Designer.cs">
+      <DependentUpon>change_department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_password.Designer.cs">
+      <DependentUpon>change_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="department.Designer.cs">
+      <DependentUpon>department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register.Designer.cs">
+      <DependentUpon>register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="repair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="repair.Designer.cs">
+      <DependentUpon>repair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_repair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_repair.Designer.cs">
+      <DependentUpon>change_repair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accumulated_depreciation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accumulated_depreciation.Designer.cs">
+      <DependentUpon>accumulated_depreciation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_accumulated_depreciation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_accumulated_depreciation.Designer.cs">
+      <DependentUpon>change_accumulated_depreciation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="search.cs" />
+    <Compile Include="UserHelper.cs" />
+    <Compile Include="user_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_login.Designer.cs">
+      <DependentUpon>user_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="value_decrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="value_decrease.Designer.cs">
+      <DependentUpon>value_decrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_value_decrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_value_decrease.Designer.cs">
+      <DependentUpon>change_value_decrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="scrap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrap.Designer.cs">
+      <DependentUpon>scrap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_scrap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_scrap.Designer.cs">
+      <DependentUpon>change_scrap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rent.Designer.cs">
+      <DependentUpon>rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_rent.Designer.cs">
+      <DependentUpon>change_rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="check_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="check_login.Designer.cs">
+      <DependentUpon>check_login.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_department.resx">
+      <DependentUpon>change_department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_password.resx">
+      <DependentUpon>change_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="department.resx">
+      <DependentUpon>department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="repair.resx">
+      <DependentUpon>repair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_repair.resx">
+      <DependentUpon>change_repair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accumulated_depreciation.resx">
+      <DependentUpon>accumulated_depreciation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_accumulated_depreciation.resx">
+      <DependentUpon>change_accumulated_depreciation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_login.resx">
+      <DependentUpon>user_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="value_decrease.resx">
+      <DependentUpon>value_decrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_value_decrease.resx">
+      <DependentUpon>change_value_decrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrap.resx">
+      <DependentUpon>scrap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_scrap.resx">
+      <DependentUpon>change_scrap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rent.resx">
+      <DependentUpon>rent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_rent.resx">
+      <DependentUpon>change_rent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="check_login.resx">
+      <DependentUpon>check_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{06c384b0-bde8-4c30-91ce-06db87dab6d1}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{2bc9a77d-3a4a-497f-b6c2-d1c5c4cd8dc5}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\logo.png" />
+    <Content Include="Resources\logo1.png" />
+    <Content Include="Resources\logo2.png" />
+    <None Include="Resources\logo5.png" />
+    <None Include="Resources\logo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
