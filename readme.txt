@@ -1,2 +1,1 @@
-Git is a version control system.
-Git is free software.
+固定资产管理系统
